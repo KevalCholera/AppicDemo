@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".design.DashboardActivity">
+
+        <TextView
+            android:id="@+id/tvDashboardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="@string/dashboard"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/vDashboardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDashboardTitle" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vDashboardTitle">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clDashboardCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/filterTitleListBackgroundColor"
+                android:padding="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/tvDashboardAccountCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/filterTitleBackgroundColor"
+                    android:paddingStart="20dp"
+                    android:paddingTop="7dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="7dp"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="@string/acc_no_1" />
+
+                <TextView
+                    android:id="@+id/tvDashboardBrandCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@color/filterTitleBackgroundColor"
+                    android:paddingStart="20dp"
+                    android:paddingTop="7dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="7dp"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tvDashboardAccountCount"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="@string/acc_no_1" />
+
+                <TextView
+                    android:id="@+id/tvDashboardLocationCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@color/filterTitleBackgroundColor"
+                    android:paddingStart="20dp"
+                    android:paddingTop="7dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="7dp"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tvDashboardBrandCount"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="@string/acc_no_1" />
+
+                <TextView
+                    android:id="@+id/tvDashboardCountClear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/underlinedClear"
+                    android:textColor="@color/filterTitleClearColor"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/tvDashboardAccountNumberTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/select_account_number"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/clDashboardCount" />
+
+            <TextView
+                android:id="@+id/tvDashboardAccountNumberTitleCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/vDashboardAccountNumberCount"
+                app:layout_constraintEnd_toStartOf="@+id/ivDashboardAccountNumberTitleCountImage"
+                app:layout_constraintTop_toBottomOf="@+id/clDashboardCount"
+                tools:text="100" />
+
+            <ImageView
+                android:id="@+id/ivDashboardAccountNumberTitleCountImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/arrow_right_blue"
+                app:layout_constraintBottom_toTopOf="@+id/vDashboardAccountNumberCount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/clDashboardCount" />
+
+
+            <View
+                android:id="@+id/vDashboardAccountNumberCount"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/filterTitleListBackgroundColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvDashboardAccountNumberTitle" />
+
+            <TextView
+                android:id="@+id/tvDashboardBrandTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/select_brand"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/vDashboardAccountNumberCount" />
+
+            <TextView
+                android:id="@+id/tvDashboardBrandTitleCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/vDashboardBrandCount"
+                app:layout_constraintEnd_toStartOf="@+id/ivDashboardBrandTitleCountImage"
+                app:layout_constraintTop_toBottomOf="@+id/vDashboardAccountNumberCount"
+                tools:text="100" />
+
+            <ImageView
+                android:id="@+id/ivDashboardBrandTitleCountImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/arrow_right_blue"
+                app:layout_constraintBottom_toTopOf="@+id/vDashboardBrandCount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/vDashboardAccountNumberCount" />
+
+            <View
+                android:id="@+id/vDashboardBrandCount"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/filterTitleListBackgroundColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvDashboardBrandTitle" />
+
+            <TextView
+                android:id="@+id/tvDashboardLocationTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/select_location"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/vDashboardBrandCount" />
+
+            <TextView
+                android:id="@+id/tvDashboardLocationTitleCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/vDashboardLocationCount"
+                app:layout_constraintEnd_toStartOf="@+id/ivDashboardLocationTitleCountImage"
+                app:layout_constraintTop_toBottomOf="@+id/vDashboardBrandCount"
+                tools:text="100" />
+
+            <ImageView
+                android:id="@+id/ivDashboardLocationTitleCountImage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/arrow_right_blue"
+                app:layout_constraintBottom_toTopOf="@+id/vDashboardLocationCount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/vDashboardBrandCount" />
+
+            <View
+                android:id="@+id/vDashboardLocationCount"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/filterTitleListBackgroundColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvDashboardLocationTitle" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

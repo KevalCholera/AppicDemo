@@ -1,0 +1,273 @@
+{
+  "status": "Success",
+  "message": "Data Available",
+  "errorCode": "L128",
+  "filterData": [
+    {
+      "Cif": "7016360",
+      "companyName": "PHARMA ZONE GENERAL CO",
+      "hierarchy": [
+        {
+          "accountNumber": "023170163600014402001",
+          "brandNameList": [
+            {
+              "brandName": "DELTAMED KHAITAN PH",
+              "locationNameList": [
+                {
+                  "locationName": "KHAITAN",
+                  "merchantNumber": [
+                    {
+                      "mid": "354902077",
+                      "outletNumber": [
+                        "12764173"
+                      ]
+                    },
+                    {
+                      "mid": "354902078",
+                      "outletNumber": [
+                        "12764174"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "brandName": "FARMA ZONE PHARMACY",
+              "locationNameList": [
+                {
+                  "locationName": "HAWALLY",
+                  "merchantNumber": [
+                    {
+                      "mid": "354902033",
+                      "outletNumber": [
+                        "29910294"
+                      ]
+                    },
+                    {
+                      "mid": "354902066",
+                      "outletNumber": [
+                        "12764162"
+                      ]
+                    },
+                    {
+                      "mid": "354902079",
+                      "outletNumber": [
+                        "28800053"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "locationName": "SALMIYA",
+                  "merchantNumber": [
+                    {
+                      "mid": "354902120",
+                      "outletNumber": [
+                        "29905829"
+                      ]
+                    },
+                    {
+                      "mid": "354902098",
+                      "outletNumber": [
+                        "44000645"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "locationName": "MIDAN HAWALLY",
+                  "merchantNumber": [
+                    {
+                      "mid": "354902149",
+                      "outletNumber": [
+                        "29916071"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "locationName": "ALJAHRA",
+                  "merchantNumber": [
+                    {
+                      "mid": "354902011",
+                      "outletNumber": [
+                        "29911084"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "locationName": "JABRIYA",
+                  "merchantNumber": [
+                    {
+                      "mid": "354902132",
+                      "outletNumber": [
+                        "29911092"
+                      ]
+                    },
+                    {
+                      "mid": "354902133",
+                      "outletNumber": [
+                        "29911093"
+                      ]
+                    },
+                    {
+                      "mid": "354902128",
+                      "outletNumber": [
+                        "29907443"
+                      ]
+                    },
+                    {
+                      "mid": "354902127",
+                      "outletNumber": [
+                        "29907442"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "locationName": "ALSALAM",
+                  "merchantNumber": [
+                    {
+                      "mid": "354902016",
+                      "outletNumber": [
+                        "29800218"
+                      ]
+                    },
+                    {
+                      "mid": "354902017",
+                      "outletNumber": [
+                        "29800227"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "locationName": "HATEEN",
+                  "merchantNumber": [
+                    {
+                      "mid": "354902043",
+                      "outletNumber": [
+                        "29804811"
+                      ]
+                    },
+                    {
+                      "mid": "354902018",
+                      "outletNumber": [
+                        "29800220"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "brandName": "TAD KHAITAN PH",
+              "locationNameList": [
+                {
+                  "locationName": "KHAI̥TAN",
+                  "merchantNumber": [
+                    {
+                      "mid": "354902076",
+                      "outletNumber": [
+                        "12764172"
+                      ]
+                    },
+                    {
+                      "mid": "354902075",
+                      "outletNumber": [
+                        "12764171"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "brandName": "SHOHADA PH",
+              "locationNameList": [
+                {
+                  "locationName": "KHAITAN",
+                  "merchantNumber": [
+                    {
+                      "mid": "354902074",
+                      "outletNumber": [
+                        "12764170"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "accountNumber": "023170163600014402002",
+          "brandNameList": [
+            {
+              "brandName": "DELTAMED KHAITAN PH",
+              "locationNameList": [
+                {
+                  "locationName": "HATEEN",
+                  "merchantNumber": [
+                    {
+                      "mid": "3549020778",
+                      "outletNumber": [
+                        "127641738"
+                      ]
+                    },
+                    {
+                      "mid": "3549020789",
+                      "outletNumber": [
+                        "127641749"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "brandName": "TAD KHAITAN PH",
+              "locationNameList": [
+                {
+                  "locationName": "MIDAN HAWALLY",
+                  "merchantNumber": [
+                    {
+                      "mid": "3549020761",
+                      "outletNumber": [
+                        "127641721"
+                      ]
+                    },
+                    {
+                      "mid": "3549020752",
+                      "outletNumber": [
+                        "127641712"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "brandName": "SHOHADA PH",
+              "locationNameList": [
+                {
+                  "locationName": "ALSALAM",
+                  "merchantNumber": [
+                    {
+                      "mid": "3549020743",
+                      "outletNumber": [
+                        "127641703"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
